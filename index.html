@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caldwell Academy Sports Club</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .navbar {
+      background: linear-gradient(90deg, #000000, #3a3a3a);
+    }
+
+    .navbar-brand {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1546519638-68e109498ffc');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 140px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .btn-gold {
+      background: gold;
+      color: black;
+      font-weight: bold;
+      border-radius: 30px;
+      padding: 10px 25px;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      transition: 0.4s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .stats {
+      background: linear-gradient(90deg, #000, #444);
+      color: white;
+      padding: 60px 0;
+    }
+
+    .stats h3 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .contact-form {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: black;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Caldwell Academy</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#sports">Sports</a></li>
+        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="container">
+    <h1>Elite Sports Excellence</h1>
+    <p>Where Champions Are Built</p>
+    <a href="#sports" class="btn btn-gold mt-3">Explore Now</a>
+  </div>
+</section>
+
+
+<section id="sports" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Our Sports</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <h5>🏀 Basketball</h5>
+          <p>Advanced coaching with professional techniques.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <h5>⚽ Football</h5>
+          <p>Teamwork, endurance, and competitive leagues.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <h5>🏏 Cricket</h5>
+          <p>Skill development and tournament exposure.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="stats text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>500+</h3>
+        <p>Students</p>
+      </div>
+      <div class="col-md-4">
+        <h3>20+</h3>
+        <p>Tournaments Won</p>
+      </div>
+      <div class="col-md-4">
+        <h3>15</h3>
+        <p>Professional Coaches</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="events" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Upcoming Events</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>Basketball Tournament</h5>
+          <p>May 2026</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>Football League</h5>
+          <p>June 2026</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>Annual Sports Meet</h5>
+          <p>August 2026</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="contact-form">
+          <input text class="form-control mb-3" name="Zameer">
+          <input class="form-control mb-3" email="zameer@gmail.com">
+          <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+          <button class="btn btn-dark w-100">Send Message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <p>© 2026 Caldwell Academy </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
